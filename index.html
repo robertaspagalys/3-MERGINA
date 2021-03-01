@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mergina</title>
     <style>
-main {
+        body{
+    background-color: #F8F8F8;
+        }
+main{
     display: inline-block;
     width: 800px;
     margin-left: calc((100% - 800px) / 2);
@@ -14,37 +17,41 @@ main {
     header {
         display: inline-block;
         width: 100%;
-        margin-top: 10px;
         margin-bottom: 20px;
     }
-    a{
+a{
+    display: inline-block;
     text-decoration: none;
     color: grey;
     margin-inline: 10px;
-}
-.SIGNIN {
+    }
+.SIGNIN{
+    display: inline-block;
      color: grey;
      border: 2px solid;    
      border-radius: 20px;
      font-size: 14px;
-}
-.Logo{
-    float:left;
-}
+    }
+header>img{
+    display: inline-block;
+    height: 50px;
+    float: left;
+    }
 nav{
+    display: inline-block;
     margin-top:20px;
-    float:right;
-}
-    section {
+    float: right;
+    }
+section{
         display: inline-block;
         width: 100%;
     }
-    div{
+div{
     display: inline-block;
-    float:left;
-    width: 380px;
-    margin-right: 40px;
-}
+    float: left;
+    width: 35%;
+    margin-left: 5%;
+    }
 h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: grey;
@@ -60,17 +67,17 @@ p{
     margin-top: 0;
     text-align: justify;
     }
-.Mergina{
+section>img{
     display:inline-block;
-     float:right;
-     width: 380px;
-}
+     float: left;
+     width: 45%;
+     margin-left: 10%;
+    }
     </style>
 </head>
 <body>
    <main>
-<header>
-    <img class="Logo" src="logo.png" alt="Logo">
+<header> <img src="./logo.png" alt="Logo"> 
 <nav>
     <a href="#">Home</a>
     <a href="#">Tracks</a>
@@ -84,7 +91,7 @@ p{
         <h1>404</h1>
     <p>The link is broken or the page has been removed.</p>
         </div>
-    <img class="Mergina" src="mergina.png" alt="Veidas ir mergina">
+    <img src="./mergina.png" alt="Veidas ir mergina">
 </section>
    </main>
 </body>
